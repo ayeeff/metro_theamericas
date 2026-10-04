@@ -1,0 +1,270 @@
+{
+  "_comment": "Precomputed job matrix for metro-transit.yml, metro_theamericas. One job per (extract, cluster), capped at 10 cities so a single failing city cannot fail its whole group. Clustering bounds the coarse cut; the cap bounds the blast radius. Generated rather than computed in jq, which failed in CI under set -euo pipefail with no message.",
+  "perJob": 10,
+  "cityCount": 46,
+  "groupCount": 36,
+  "groups": [
+    {
+      "extract": "argentina",
+      "cluster": "argentina-215",
+      "cities": [
+        "buenosaires:-58.69753,-34.9025,-58.09753,-34.3025"
+      ]
+    },
+    {
+      "extract": "bolivia",
+      "cluster": "bolivia",
+      "cities": [
+        "sucre:-65.55951,-19.34097,-64.95951,-18.74097"
+      ]
+    },
+    {
+      "extract": "bolivia",
+      "cluster": "mexico-76",
+      "cities": [
+        "lapaz:-68.44998,-16.79797,-67.84999,-16.19797"
+      ]
+    },
+    {
+      "extract": "brazil",
+      "cluster": "brazil",
+      "cities": [
+        "saopaulo:-46.78,-23.7,-46.48,-23.48"
+      ]
+    },
+    {
+      "extract": "brazil",
+      "cluster": "brazil-0",
+      "cities": [
+        "belohorizonte:-44.2345,-20.2167,-43.6345,-19.6167"
+      ]
+    },
+    {
+      "extract": "brazil",
+      "cluster": "brazil-1",
+      "cities": [
+        "brasilia:-48.0578,-15.9689,-47.7078,-15.6189",
+        "goinia:-49.4039,-16.8286,-49.1039,-16.5286"
+      ]
+    },
+    {
+      "extract": "brazil",
+      "cluster": "brazil-5",
+      "cities": [
+        "riodejaneiro:-43.52502,-23.22502,-42.92502,-22.62502"
+      ]
+    },
+    {
+      "extract": "brazil",
+      "cluster": "brazil-7",
+      "cities": [
+        "curitiba:-49.38331,-25.55934,-49.19241,-25.37087"
+      ]
+    },
+    {
+      "extract": "canada",
+      "cluster": "canada-1",
+      "cities": [
+        "kitchener:-80.6012,43.3354,-80.4212,43.5154",
+        "qubec:-71.3145,46.7123,-71.1145,46.9123"
+      ]
+    },
+    {
+      "extract": "canada",
+      "cluster": "canada-163",
+      "cities": [
+        "richmond:-123.42,48.98,-122.82,49.58"
+      ]
+    },
+    {
+      "extract": "canada",
+      "cluster": "canada-164",
+      "cities": [
+        "brampton:-79.8772,43.59657,-79.63042,43.81671",
+        "mississauga:-79.81957,43.47725,-79.53389,43.74816",
+        "toronto:-79.72002,43.39998,-79.12002,43.99998",
+        "vaughan:-79.6574,43.74891,-79.38977,43.91252",
+        "windsor:-83.1182,42.19962,-82.5182,42.35362"
+      ]
+    },
+    {
+      "extract": "canada",
+      "cluster": "canada-165",
+      "cities": [
+        "halifax:-63.9146,44.57097,-63.43451,44.92777"
+      ]
+    },
+    {
+      "extract": "canada",
+      "cluster": "canada-166",
+      "cities": [
+        "montreal:-73.8673,45.2017,-73.2673,45.8017",
+        "ottawa:-76.00002,45.1167,-75.40002,45.7167"
+      ]
+    },
+    {
+      "extract": "canada",
+      "cluster": "canada-167",
+      "cities": [
+        "surrey:-122.9493,49.00694,-122.4345,49.23188",
+        "vancouver:-123.42164,48.97342,-122.82165,49.57342"
+      ]
+    },
+    {
+      "extract": "canada",
+      "cluster": "canada-168",
+      "cities": [
+        "winnipeg:-97.35945,49.76458,-96.95688,49.98419"
+      ]
+    },
+    {
+      "extract": "canada",
+      "cluster": "canada-170",
+      "cities": [
+        "calgary:-114.28486,50.8189,-113.88592,51.22017"
+      ]
+    },
+    {
+      "extract": "canada",
+      "cluster": "canada-172",
+      "cities": [
+        "edmonton:-113.74,53.37,-113.24,53.73"
+      ]
+    },
+    {
+      "extract": "chile",
+      "cluster": "chile-1",
+      "cities": [
+        "valparaiso:-71.9627,-33.3972,-71.2627,-32.6972"
+      ]
+    },
+    {
+      "extract": "chile",
+      "cluster": "chile-223",
+      "cities": [
+        "santiago:-70.96704,-33.75001,-70.36704,-33.15001"
+      ]
+    },
+    {
+      "extract": "colombia",
+      "cluster": "colombia-176",
+      "cities": [
+        "bogota:-74.38335,4.29642,-73.78335,4.89642"
+      ]
+    },
+    {
+      "extract": "cuba",
+      "cluster": "cuba",
+      "cities": [
+        "havana:-82.66418,22.83196,-82.06418,23.43196"
+      ]
+    },
+    {
+      "extract": "ecuador",
+      "cluster": "ecuador-259",
+      "cities": [
+        "quito:-78.80005,-0.51499,-78.20005,0.08501"
+      ]
+    },
+    {
+      "extract": "el-salvador",
+      "cluster": "el-salvador",
+      "cities": [
+        "sansalvador:-89.50304,13.41,-88.90304,14.01"
+      ]
+    },
+    {
+      "extract": "guatemala",
+      "cluster": "guatemala",
+      "cities": [
+        "guatemala:-90.82697,14.32113,-90.22697,14.92114"
+      ]
+    },
+    {
+      "extract": "haiti-and-domrep",
+      "cluster": "haiti-and-domrep",
+      "cities": [
+        "santodomingo:-70.20008,18.17007,-69.60008,18.77007"
+      ]
+    },
+    {
+      "extract": "mexico",
+      "cluster": "mexico",
+      "cities": [
+        "queretaro:-100.64,20.41,-100.14,20.77"
+      ]
+    },
+    {
+      "extract": "mexico",
+      "cluster": "mexico-1",
+      "cities": [
+        "mrida:-89.7232,20.867,-89.5232,21.067"
+      ]
+    },
+    {
+      "extract": "mexico",
+      "cluster": "mexico-79",
+      "cities": [
+        "mexicocity:-99.43099,19.14244,-98.83099,19.74244",
+        "puebla:-98.32591,18.94984,-98.0638,19.1188"
+      ]
+    },
+    {
+      "extract": "mexico",
+      "cluster": "mexico-80",
+      "cities": [
+        "guadalajara:-103.6496,20.3597,-103.0496,20.9597",
+        "zapopan:-103.51188,20.57815,-103.35956,20.77591"
+      ]
+    },
+    {
+      "extract": "mexico",
+      "cluster": "mexico-82",
+      "cities": [
+        "monterrey:-100.62998,25.36999,-100.02998,25.97"
+      ]
+    },
+    {
+      "extract": "mexico",
+      "cluster": "mexico-85",
+      "cities": [
+        "tijuana:-117.16069,32.37116,-116.78068,32.56508"
+      ]
+    },
+    {
+      "extract": "nicaragua",
+      "cluster": "nicaragua",
+      "cities": [
+        "managua:-86.56849,11.85302,-85.96849,12.45302"
+      ]
+    },
+    {
+      "extract": "panama",
+      "cluster": "panama",
+      "cities": [
+        "panamacity:-79.83303,8.66802,-79.23304,9.26802"
+      ]
+    },
+    {
+      "extract": "peru",
+      "cluster": "peru-249",
+      "cities": [
+        "lima:-77.35007,-12.34801,-76.75007,-11.74801"
+      ]
+    },
+    {
+      "extract": "uruguay",
+      "cluster": "uruguay",
+      "cities": [
+        "montevideo:-56.47105,-35.15804,-55.87105,-34.55804"
+      ]
+    },
+    {
+      "extract": "venezuela",
+      "cluster": "venezuela-217",
+      "cities": [
+        "caracas:-67.21703,10.201,-66.61704,10.801"
+      ]
+    }
+  ]
+}
