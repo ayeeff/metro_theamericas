@@ -204,3 +204,4 @@ jobs:
           name: transit-${{ matrix.group.extract }}-${{ github.run_attempt }}
           path: work/out/
           retention-days: 14
+# Re-registered: GitHub had not indexed this workflow for the repo.
